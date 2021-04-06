@@ -20,7 +20,9 @@ pipeline {
 	}
 }
 
-
+//first find out pwd and who
+sh "pwd"
+sh "who"
 // steps
 def buildApp() {
 	dir ('section_4/code/cd_pipeline' ) {
